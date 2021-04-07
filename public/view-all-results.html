@@ -616,7 +616,7 @@
                   <div class="absolute right-4 top-4">
                     <button
                       class="px-4 py-2 text-gray-dark"
-                      @click="submissionsPopup = false"
+                      @click="submissionsPopup = false; document.body.classList.remove('overflow-hidden')"
                     >
                       <i class="fas fa-times"></i>
                     </button>
