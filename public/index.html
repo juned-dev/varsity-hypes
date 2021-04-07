@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1920" />
+    <title>Varsity Hypes</title>
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Fontawesome 5 cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--Start Header -->
+    <header class="flex items-center px-8 py-4 bg-primary">
+      <div class="bg-gredient-to-r from-bg-gray-darker to-bg-darker">
+        <img src="images/logo.svg" alt="site-logo" />
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Event title block -->
+    <section>
+      <div
+        class="mx-auto my-10 rounded-lg bg-gray max-w-1440"
+      >
+        <div class="flex py-6 bg-gradient-to-r from-gray-lighter to-gray-lighter px-7">
+          <div class="flex-shrink-0 mr-6">
+            <img src="images/Avatar.svg" alt="Avatar" />
+          </div>
+          <div>
+            <h1 class="mb-1 text-2xl font-bold text-primary">Event Title</h1>
+            <p class="mb-3 text-sm black-light">
+              Event description. Lorem ipsum dolor sit amet, consectetur elit
+              adi, sed do eiusm tem incididunt ut. Lorem ips dolor sit.Event
+              description. Lorem ipsum dolor sit amet, consectetur elit adi, sed
+              do eiusm tem incididunt ut. Lorem ips dolor sit.Event description.
+              Lorem ipsum dolor sit amet, consectetur elit adi, sed do eiusm tem
+              incididunt ut. Lorem ips dolor sit.
+            </p>
+
+            <ul class="flex">
+              <li class="mr-3 text-sm text-gray-darker">
+                <i class="mr-2 fas fa-running"></i>
+                <span class="font-medium">5 activities</span>
+              </li>
+              <li class="text-sm text-gray-darker">
+                <i class="mr-2 fas fa-calendar-day"></i>
+                <span class="font-medium">10/03/21</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Start activities search-->
+      <div class="px-4 mb-10 text-center">
+        <h2 class="mb-6 text-4xl font-bold text-primary">
+          Find Activities Results
+        </h2>
+        <div class="flex justify-center">
+          <div class="relative mr-3">
+            <i
+              class="absolute transform -translate-y-1/2 fas fa-search text-black-lighter left-4 top-1/2"
+            ></i>
+            <input
+              class="h-10 py-2 pl-10 pr-2 text-sm border rounded-lg border-gray w-72 placeholder-black-lighter focus:outline-none focus:border-primary-dark focus:ring-1 focus:ring-primary focus:border-none"
+              placeholder="Search..."
+            />
+          </div>
+          <button class="btn-primary">Search</button>
+        </div>
+      </div>
+      <!-- End activities search-->
+
+      <!-- Start filters by tags -->
+      <div class="relative flex py-4 border-t border-b px-7 border-gray">
+        <p class="font-medium text-primary">Filter by Tags:</p>
+        <ul
+          class="absolute inset-x-0 flex justify-center transform -translate-y-1/2 top-1/2"
+        >
+          <li class="rounded-lg bg-accent">
+            <span
+              class="inline-block text-sm text-accent px-4 py-1.5 bg-opacity-10 hover:bg-accent hover:bg-opacity-10 cursor-pointer transition duration-500 bg-gradient-to-r from-gray-lightest to-gray-lightest"
+              >Tag 1</span
+            >
+          </li>
+          <li>
+            <span
+              class="inline-block text-sm font-medium rounded-lg text-black-light px-4 py-1.5 hover:text-accent cursor-pointer transition duration-500"
+              >Tag 2</span
+            >
+          </li>
+          <li>
+            <span
+              class="inline-block text-sm font-medium rounded-lg text-black-light px-4 py-1.5 hover:text-accent cursor-pointer transition duration-500"
+              >Tag 3</span
+            >
+          </li>
+
+          <li>
+            <span
+              class="inline-block text-sm font-medium rounded-lg text-black-light px-4 py-1.5 hover:text-accent cursor-pointer transition duration-500"
+              >Tag 4</span
+            >
+          </li>
+          <li>
+            <span
+              class="inline-block text-sm font-medium rounded-lg text-black-light px-4 py-1.5 hover:text-accent cursor-pointer transition duration-500"
+              >Tag 5</span
+            >
+          </li>
+          <li>
+            <span
+              class="inline-block text-sm font-medium text-primary px-4 py-1.5 hover:text-accent cursor-pointer transition duration-500 underline"
+              >clear all filters</span
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- End filters by tags -->
+    </section>
+    <!-- End Event title block -->
+
+    <section class="bg-gray">
+      <div class="bg-gradient-to-r from-gray-lightest to-gray-lightest p-14">
+        <div class="container">
+          <div class="grid grid-cols-2 gap-7">
+            <div class="p-5 bg-white rounded-md shadow">
+              <div class="pb-5 border-b border-gray">
+                <div class="flex items-center mb-5">
+                  <h3 class="mb-1 mr-3 text-2xl font-bold text-primary">
+                    Activity name
+                  </h3>
+                  <div
+                    class="inline-block overflow-hidden border rounded-md bg-success border-success"
+                  >
+                    <span
+                      class="block px-2 py-1 text-xs font-medium bg-gradient-to-r from-success-lightest to-success-lightest"
+                    >
+                      Results Submitted
+                    </span>
+                  </div>
+                </div>
+                <div class="relative">
+                  <p class="mb-5 text-sm text-black-light">
+                    Activity description. Lorem ipsum dolor sit amet. Lorem ipsum
+                    dolor sit amet, consecelit...
+                  </p>
+                  <a href="" class="absolute right-0 text-sm underline transform -translate-y-1/2 text-accent top-1/2">View more</a>
+                  </div>
+
+                <ul class="flex mb-5 space-x-3">
+                  <li class="rounded-lg bg-accent">
+                    <span
+                      class="inline-block text-sm text-accent px-4 py-1.5 bg-opacity-10 hover:bg-accent hover:bg-opacity-10 cursor-pointer transition duration-500 bg-gradient-to-r from-gray-lightest to-gray-lightest"
+                      >Tag 1</span
+                    >
+                  </li>
+                  <li class="rounded-lg bg-gray">
+                    <span
+                      class="inline-block text-sm rounded-lg bg-gradient-to-r from-gray-lighter to-gray-lighter text-primary px-3 py-1.5 hover:text-accent cursor-pointer transition duration-500"
+                      >Chip text</span
+                    >
+                  </li>
+                  <li class="rounded-lg bg-gray">
+                    <span
+                      class="inline-block text-sm rounded-lg bg-gradient-to-r from-gray-lighter to-gray-lighter text-primary px-3 py-1.5 hover:text-accent cursor-pointer transition duration-500"
+                      >Chip text</span
+                    >
+                  </li>
+                </ul>
+
+                <ul class="flex">
+                  <li class="mr-3 text-sm text-gray-darker">
+                    <i class="mr-2 fas fa-medal"></i>
+                    <span class="font-medium">3 categories</span>
+                  </li>
+                  <li class="mr-3 text-sm text-gray-darker">
+                    <i class="mr-2 fas fa-users"></i>
+                    <span class="font-medium">50 submissions</span>
+                  </li>
+                </ul>
+              </div>
+
+               <!-- Start activities tabs -->
+               <div class="h-1/7">
+              <ul class="flex px-2 mt-5 mb-4 border-b border-primary">
+                  <li class="px-4 py-3 text-sm font-bold bg-white border border-b-0 cursor-pointer text-primary border-primary rounded-tl-md rounded-tr-md -mb-activeTab">Category 1</li>
+                  <li class="px-4 py-3 text-sm font-bold cursor-pointer">Category 2</li>
+                  <li class="px-4 py-3 text-sm font-bold cursor-pointer">Category 3</li>
+              </ul>
+              <!-- Start tab content wrapper -->
+              <div>
+                  <!-- Start tab pane 1 -->
+                  <div>
+                      <table class="min-w-full leading-normal">
+                          <thead>
+                              <tr>
+                                  <th></th>
+                                  <th></th>
+                                  <th
+                                      class="px-5 py-3 text-sm font-bold text-left">
+                                      Score
+                                  </th>
+                                  <th></th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr class="shadow-sm even:bg-gray-100">
+                                  <td class="p-3 w-7">
+                                      <div class="inline-flex items-center justify-center text-black rounded-md w-7 h-7 bg-yellow">1</div>
+                                  </td>
+                                  <td class="w-full p-3">
+                                      <div class="flex items-center">
+                                          <div class="flex-shrink-0 w-10 h-10">
+                                              <img class="w-full h-full rounded-full"
+                                                  src="images/avatar-1.svg"
+                                                  alt="" />
+                                          </div>
+                                          <div class="ml-3">
+                                              <p class="text-sm font-medium whitespace-no-wrap text-primary">
+                                                  James Morris 
+                                              </p>
+                                              <span class="text-xs capitalize text-black-light">school name</span>
+                                          </div>
+                                      </div>
+                                  </td>
+                                
+                                  <td class="p-3">
+                                      <p class="text-sm text-primary">
+                                          100
+                                      </p>
+                                  </td>
+                                  <td class="p-3">
+                                    <button class="btn-outline-primary btn-sm">Preview</button>
+                                  </td>
+                              </tr>
+                              <tr class="shadow-sm even:bg-gray-100">
+                                  <td class="p-3 w-7">
+                                      <div class="inline-flex items-center justify-center text-black rounded-md w-7 h-7 bg-gray-dark">2</div>
+                                  </td>
+                                  <td class="w-full p-3">
+                                      <div class="flex items-center">
+                                          <div class="flex-shrink-0 w-10 h-10">
+                                              <img class="w-full h-full rounded-full"
+                                                  src="images/avatar-2.svg"
+                                                  alt="" />
+                                          </div>
+                                          <div class="ml-3">
+                                              <p class="text-sm font-medium whitespace-no-wrap text-primary">
+                                                  James Morris 
+                                              </p>
+                                              <span class="text-xs capitalize text-black-light">school name</span>
+                                          </div>
+                                      </div>
+                                  </td>
+                                
+                                  <td class="p-3">
+                                      <p class="text-sm text-primary">
+                                          90
+                                      </p>
+                                  </td>
+                                  <td class="p-3">
+                                    <button class="btn-outline-primary btn-sm">Preview</button>
+                                  </td>
+                              </tr>
+                              <tr class="shadow-sm even:bg-gray-100">
+                                  <td class="p-3 w-7">
+                                      <div class="inline-flex items-center justify-center text-black rounded-md w-7 h-7 bg-brown">2</div>
+                                  </td>
+                                  <td class="w-full p-3">
+                                      <div class="flex items-center">
+                                          <div class="flex-shrink-0 w-10 h-10">
+                                              <img class="w-full h-full rounded-full"
+                                                  src="images/avatar-3.svg"
+                                                  alt="avatar" />
+                                          </div>
+                                          <div class="ml-3">
+                                              <p class="text-sm font-medium whitespace-no-wrap text-primary">
+                                                  James Morris 
+                                              </p>
+                                              <span class="text-xs capitalize text-black-light">school name</span>
+                                          </div>
+                                      </div>
+                                  </td>
+                                
+                                  <td class="p-3">
+                                      <p class="text-sm text-primary">
+                                          90
+                                      </p>
+                                  </td>
+                                  <td class="p-3">
+                                    <button class="btn-outline-primary btn-sm">Preview</button>
+                                  </td>
+                              </tr>
+                              <tr class="shadow-sm even:bg-gray-100">
+                                  <td class="p-3 w-7">
+                                      <div class="inline-flex items-center justify-center text-black rounded-md w-7 h-7">4</div>
+                                  </td>
+                                  <td class="w-full p-3">
+                                      <div class="flex items-center">
+                                          <div class="flex-shrink-0 w-10 h-10">
+                                              <img class="w-full h-full rounded-full"
+                                                  src="images/avatar-4.svg"
+                                                  alt="avatar" />
+                                          </div>
+                                          <div class="ml-3">
+                                              <p class="text-sm font-medium whitespace-no-wrap text-primary">
+                                                  James Morris 
+                                              </p>
+                                              <span class="text-xs capitalize text-black-light">school name</span>
+                                          </div>
+                                      </div>
+                                  </td>
+                                
+                                  <td class="p-3">
+                                      <p class="text-sm text-primary">
+                                          70
+                                      </p>
+                                  </td>
+                                  <td class="p-3">
+                                    <button class="btn-outline-primary btn-sm">Preview</button>
+                                  </td>
+                              </tr>
+                              <tr class="shadow-sm even:bg-gray-100">
+                                  <td class="p-3 w-7">
+                                      <div class="inline-flex items-center justify-center text-black rounded-md w-7 h-7">5</div>
+                                  </td>
+                                  <td class="w-full p-3">
+                                      <div class="flex items-center">
+                                          <div class="flex-shrink-0 w-10 h-10">
+                                              <img class="w-full h-full rounded-full"
+                                                  src="images/avatar-5.svg"
+                                                  alt="avatar" />
+                                          </div>
+                                          <div class="ml-3">
+                                              <p class="text-sm font-medium whitespace-no-wrap text-primary">
+                                                  James Morris 
+                                              </p>
+                                              <span class="text-xs capitalize text-black-light">school name</span>
+                                          </div>
+                                      </div>
+                                  </td>
+                                
+                                  <td class="p-3">
+                                      <p class="text-sm text-primary">
+                                          60
+                                      </p>
+                                  </td>
+                                  <td class="p-3">
+                                    <button class="btn-outline-primary btn-sm">Preview</button>
+                                  </td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
+                  </div>
+                  <!-- End tab pane 1 -->
+                  <div class="mt-5">
+                    <a href="" class="text-sm btn-outline-primary btn-md">View all Results</a>
+                </div>
+              </div>
+              </div>
+              <!-- End tab content wrapper -->
+
+
+                <div class="p-5 bg-white rounded-md shadow">
+                  <div class="pb-5">
+                    <div class="flex items-center mb-5">
+                      <h3 class="mb-1 mr-3 text-2xl font-bold text-primary">
+                        Activity name
+                      </h3>
+                      <div
+                        class="inline-block overflow-hidden border rounded-md bg-gray border-gray"
+                      >
+                        <span
+                          class="block px-2 py-1 text-xs font-medium bg-gradient-to-r from-gray-lighter to-gray-lighter"
+                        >
+                        Waiting for judgment
+                        </span>
+                      </div>
+                    </div>
+                    <div class="relative">
+                    <p class="mb-5 text-sm text-black-light">
+                      Activity description. Lorem ipsum dolor sit amet. Lorem ipsum
+                      dolor sit amet, consecelit...
+                    </p>
+                    <a href="" class="absolute right-0 text-sm underline transform -translate-y-1/2 text-accent top-1/2">View more</a>
+                    </div>
+                    <ul class="flex mb-5 space-x-3">
+                     
+                      <li class="rounded-lg bg-gray">
+                        <span
+                          class="inline-block text-sm rounded-lg bg-gradient-to-r from-gray-lighter to-gray-lighter text-primary px-3 py-1.5 hover:text-accent cursor-pointer transition duration-500"
+                          >Chip text</span
+                        >
+                      </li>
+                      <li class="rounded-lg bg-gray">
+                        <span
+                          class="inline-block text-sm rounded-lg bg-gradient-to-r from-gray-lighter to-gray-lighter text-primary px-3 py-1.5 hover:text-accent cursor-pointer transition duration-500"
+                          >Chip text</span
+                        >
+                      </li>
+                      <li class="rounded-lg bg-gray">
+                        <span
+                          class="inline-block text-sm rounded-lg bg-gradient-to-r from-gray-lighter to-gray-lighter text-primary px-3 py-1.5 hover:text-accent cursor-pointer transition duration-500"
+                          >Chip text</span
+                        >
+                      </li>
+                    </ul>
+
+                    <ul class="flex">
+                      <li class="mr-3 text-sm text-gray-darker">
+                        <i class="mr-2 fas fa-medal"></i>
+                        <span class="font-medium">2 categories</span>
+                      </li>
+                      <li class="mr-3 text-sm text-gray-darker">
+                        <i class="mr-2 fas fa-users"></i>
+                        <span class="font-medium">50 submissions</span>
+                      </li>
+                    </ul>
+
+                  </div>
+
+                  <div class="rounded-md waiting-block bg-gray">
+                    <div class="flex items-center justify-center h-full p-4 bg-gradient-to-r from-gray-lighter to-gray-lighter">
+                      <div class="text-center">
+                        <h3 class="mr-3 text-2xl font-bold text-primary mb-7">
+                          Waiting for judgments
+                        </h3>
+                        <div>
+                          <a href="" class="btn-outline-primary btn-md">View Activities Details</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

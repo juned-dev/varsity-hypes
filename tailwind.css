@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    @apply font-body
+}
+
+.btn-primary{
+    @apply bg-primary px-4 py-2 font-medium text-white transition duration-500 rounded-lg   hover:bg-accent focus:outline-none inline-block
+}
+.btn-outline-primary{
+    @apply bg-transparent font-medium text-accent transition duration-500 rounded-lg hover:bg-accent hover:text-white focus:outline-none border border-accent inline-block 
+}
+.btn-md{
+    @apply px-4 py-2.5
+}
+.btn-sm{
+    @apply px-2 py-1 rounded text-xs
+}
+.form-group{
+    @apply mb-5
+}
+.form-label{
+    @apply block mb-2 text-xs font-medium text-gray-darker
+}
+.form-input{
+    @apply w-full h-10 px-2 py-3 text-sm placeholder-gray-900 border border-gray  rounded-lg focus:outline-none focus:ring-1 focus:ring-primary
+}
+textarea{
+    @apply px-2 py-3 text-sm placeholder-gray-900 border border-gray  rounded-lg focus:outline-none focus:ring-1 focus:ring-primary w-full
+}
+[x-cloak]{
+    @apply hidden
+}
+.splide__list{
+   @apply w-auto !important
+}
+#video-slider .splide__arrows{
+    @apply hidden !important
+}
+.splide--nav>.splide__track>.splide__list>.splide__slide.is-active{
+    @apply border-none rounded-tl-md rounded-tr-md border-gray-300 !important
+}
+.splide__pagination{
+    @apply hidden !important
+}
+#video-thumbnail-slider{
+    @apply px-6
+}
+#video-thumbnail-slider .splide__arrow{
+    @apply bg-transparent transform  -translate-y-full
+}
+#video-thumbnail-slider .splide__arrow--prev svg{
+    @apply -ml-14
+}
+#video-thumbnail-slider .splide__arrow--next svg{
+    @apply -mr-14
+}
+#video-thumbnail-slider-list{
+    @apply pt-1.5 pb-14 !important
+}
+.thumb-title{
+    @apply  absolute w-full p-2 text-xs bg-white  -bottom-8 text-primary
+}
+.splide--nav>.splide__track>.splide__list>.splide__slide.is-active .thumb-title{
+    @apply border rounded-bl-md rounded-br-md
+}
+.waiting-block{
+    height: calc(100% - 188px);
+}

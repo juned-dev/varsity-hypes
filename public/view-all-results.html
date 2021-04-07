@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=1920" />
+    <title>Varsity Hypes</title>
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Fontawesome 5 cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- Alpinjs script -->
+    <script
+      src="js/alpine.min.js"
+      defer
+    ></script>
+
+    <!-- CSS and JS required for slider -->
+    <!---------------- Source URL: https://splidejs.com/ ------------------>
+    <link rel="stylesheet" href="css/splide.min.css" />
+    <link rel="stylesheet" href="css/splide-extension-video.min.css" />
+    <script src="js/splide-extension-video.min.js"></script>
+    <!-- CSS and JS required for slider -->
+  </head>
+  <body>
+    <!--Start Header -->
+    <header class="flex items-center px-8 py-4 bg-primary">
+      <div class="bg-gredient-to-r from-bg-gray-darker to-bg-darker">
+        <img src="images/logo.svg" alt="site-logo" />
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start about the activity section -->
+    <section class="p-10">
+      <div class="container">
+        <!-- Start breadcrumb -->
+        <ul class="flex mb-12 space-x-3">
+          <li>
+            <a
+              href=""
+              class="block text-sm transition duration-300 text-gray-dark hover:text-blue"
+            >
+              <i class="mr-2 fas fa-home"></i>
+              Event Results
+            </a>
+          </li>
+          <li>
+            <a href="" class="block text-sm text-blue">
+              <i class="mr-2 text-xs fas fa-chevron-right"></i>
+              Activity Detail
+            </a>
+          </li>
+        </ul>
+        <!-- End breadcrumb -->
+
+        <!--Start Page title -->
+        <div class="mb-10 text-center">
+          <h1 class="text-4xl font-bold text-black">About the Activity</h1>
+        </div>
+        <!--End Page title -->
+
+        <!-- Start Activity card -->
+        <div class="p-6 bg-white rounded shadow-md">
+          <div class="flex items-center mb-3">
+            <h3 class="mb-1 mr-3 text-2xl font-bold text-primary">2D Mix</h3>
+            <div
+              class="inline-block overflow-hidden border rounded-md bg-success border-success"
+            >
+              <span
+                class="block px-2 py-1 text-xs font-medium bg-gradient-to-r from-success-lightest to-success-lightest"
+              >
+                Results Submitted
+              </span>
+            </div>
+          </div>
+          <p class="mb-4 text-sm black-light">
+            Activity description. Lorem ipsum dolor sit amet. Lorem ipsum dolor
+            sit amet, consectetur elit. Activity description. Lorem ipsum dolor
+            sit amet. Lorem ipsum dolor sit amet, consectetur elit.Activity
+            description. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+            consectetur elit.Activity description. Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet, consectetur elit.Activity description.
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur
+            elit.
+          </p>
+
+          <ul class="flex mb-5 space-x-3">
+            <li class="rounded-lg bg-gray">
+              <span
+                class="inline-block text-sm rounded-lg bg-gradient-to-r from-gray-lighter to-gray-lighter text-primary px-3 py-1.5 hover:text-accent cursor-pointer transition duration-500"
+                >Chip text</span
+              >
+            </li>
+            <li class="rounded-lg bg-gray">
+              <span
+                class="inline-block text-sm rounded-lg bg-gradient-to-r from-gray-lighter to-gray-lighter text-primary px-3 py-1.5 hover:text-accent cursor-pointer transition duration-500"
+                >Chip text</span
+              >
+            </li>
+            <li class="rounded-lg bg-gray">
+              <span
+                class="inline-block text-sm rounded-lg bg-gradient-to-r from-gray-lighter to-gray-lighter text-primary px-3 py-1.5 hover:text-accent cursor-pointer transition duration-500"
+                >Chip text</span
+              >
+            </li>
+          </ul>
+
+          <ul class="flex">
+            <li class="mr-3 text-sm text-gray-darker">
+              <i class="mr-2 fas fa-medal"></i>
+              <span class="font-medium">2 categories</span>
+            </li>
+            <li class="mr-3 text-sm text-gray-darker">
+              <i class="mr-2 fas fa-users"></i>
+              <span class="font-medium">50 submissions</span>
+            </li>
+          </ul>
+        </div>
+        <!-- End Activity card -->
+      </div>
+    </section>
+    <!-- End about the activity section -->
+
+    <section class="bg-gray">
+      <div class="bg-gradient-to-r from-gray-lightest to-gray-lightest p-14">
+        <div class="container">
+          <div class="mb-10 text-center">
+            <h1 class="text-4xl font-bold text-black">Activities Results</h1>
+          </div>
+
+          <ul class="flex px-2 border-b border-primary">
+            <li
+              class="px-4 py-3 text-sm font-bold bg-white border border-b-0 cursor-pointer text-primary border-primary rounded-tl-md rounded-tr-md -mb-activeTab"
+            >
+              Category 1
+            </li>
+            <li class="px-4 py-3 text-sm font-bold cursor-pointer">
+              Category 2
+            </li>
+            <li class="px-4 py-3 text-sm font-bold cursor-pointer">
+              Category 3
+            </li>
+          </ul>
+
+          <div class="px-5 py-10 bg-white rounded-md">
+            <!-- Start tab pane 1 -->
+
+            <!---------------------- Start Activity Not submitted card ---------------->
+            <!-- TODO: please remove hidden class from the parent for view not submitted card -->
+            <div class="hidden rounded-md bg-gray h-72">
+              <div
+                class="flex items-center justify-center h-full p-4 bg-gradient-to-r from-gray-lighter to-gray-lighter"
+              >
+                <div class="text-center">
+                  <h3 class="mr-3 text-2xl font-bold text-primary mb-7">
+                    Waiting for judgments
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!---------------------- End Activity Not submitted card ---------------->
+
+            <!-- Start table search -->
+            <div class="flex justify-end mb-10">
+              <div class="relative mr-3">
+                <i
+                  class="absolute transform -translate-y-1/2 fas fa-search text-black-lighter left-4 top-1/2"
+                ></i>
+                <input
+                  class="h-10 py-2 pl-10 pr-2 text-sm border rounded-lg border-gray w-72 placeholder-black-lighter focus:outline-none focus:border-primary-dark focus:ring-1 focus:ring-primary focus:border-none"
+                  placeholder="Search..."
+                />
+              </div>
+              <button class="btn-primary">Search</button>
+            </div>
+            <!-- End table search -->
+
+            <div x-data="{ submissionsPopup: false }">
+              <table class="min-w-full leading-normal">
+                <tbody>
+                  <tr class="shadow-sm even:bg-gray-100">
+                    <td class="p-3 w-7">
+                      <div
+                        class="inline-flex items-center justify-center text-black rounded-md w-7 h-7 bg-yellow"
+                      >
+                        1
+                      </div>
+                    </td>
+                    <td class="w-full p-3">
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img
+                            class="w-full h-full rounded-full"
+                            src="images/avatar-1.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-3">
+                          <p
+                            class="text-sm font-medium whitespace-no-wrap text-primary"
+                          >
+                            James Morris
+                          </p>
+                          <span class="text-xs capitalize text-black-light"
+                            >school name</span
+                          >
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="p-3">
+                      <p class="text-sm text-primary">100</p>
+                    </td>
+                    <td class="p-3">
+                      <button
+                        class="btn-outline-primary btn-sm"
+                        @click="submissionsPopup = true; document.body.classList.add('overflow-hidden')"
+                      >
+                        Preview
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="shadow-sm even:bg-gray-100">
+                    <td class="p-3 w-7">
+                      <div
+                        class="inline-flex items-center justify-center text-black rounded-md w-7 h-7 bg-gray-dark"
+                      >
+                        2
+                      </div>
+                    </td>
+                    <td class="w-full p-3">
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img
+                            class="w-full h-full rounded-full"
+                            src="images/avatar-2.svg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ml-3">
+                          <p
+                            class="text-sm font-medium whitespace-no-wrap text-primary"
+                          >
+                            James Morris
+                          </p>
+                          <span class="text-xs capitalize text-black-light"
+                            >school name</span
+                          >
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="p-3">
+                      <p class="text-sm text-primary">90</p>
+                    </td>
+                    <td class="p-3">
+                      <button class="btn-outline-primary btn-sm">
+                        Preview
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="shadow-sm even:bg-gray-100">
+                    <td class="p-3 w-7">
+                      <div
+                        class="inline-flex items-center justify-center text-black rounded-md w-7 h-7 bg-brown"
+                      >
+                        2
+                      </div>
+                    </td>
+                    <td class="w-full p-3">
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img
+                            class="w-full h-full rounded-full"
+                            src="images/avatar-3.svg"
+                            alt="avatar"
+                          />
+                        </div>
+                        <div class="ml-3">
+                          <p
+                            class="text-sm font-medium whitespace-no-wrap text-primary"
+                          >
+                            James Morris
+                          </p>
+                          <span class="text-xs capitalize text-black-light"
+                            >school name</span
+                          >
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="p-3">
+                      <p class="text-sm text-primary">90</p>
+                    </td>
+                    <td class="p-3">
+                      <button class="btn-outline-primary btn-sm">
+                        Preview
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="shadow-sm even:bg-gray-100">
+                    <td class="p-3 w-7">
+                      <div
+                        class="inline-flex items-center justify-center text-black rounded-md w-7 h-7"
+                      >
+                        4
+                      </div>
+                    </td>
+                    <td class="w-full p-3">
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img
+                            class="w-full h-full rounded-full"
+                            src="images/avatar-4.svg"
+                            alt="avatar"
+                          />
+                        </div>
+                        <div class="ml-3">
+                          <p
+                            class="text-sm font-medium whitespace-no-wrap text-primary"
+                          >
+                            James Morris
+                          </p>
+                          <span class="text-xs capitalize text-black-light"
+                            >school name</span
+                          >
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="p-3">
+                      <p class="text-sm text-primary">70</p>
+                    </td>
+                    <td class="p-3">
+                      <button class="btn-outline-primary btn-sm">
+                        Preview
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="shadow-sm even:bg-gray-100">
+                    <td class="p-3 w-7">
+                      <div
+                        class="inline-flex items-center justify-center text-black rounded-md w-7 h-7"
+                      >
+                        5
+                      </div>
+                    </td>
+                    <td class="w-full p-3">
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img
+                            class="w-full h-full rounded-full"
+                            src="images/avatar-5.svg"
+                            alt="avatar"
+                          />
+                        </div>
+                        <div class="ml-3">
+                          <p
+                            class="text-sm font-medium whitespace-no-wrap text-primary"
+                          >
+                            James Morris
+                          </p>
+                          <span class="text-xs capitalize text-black-light"
+                            >school name</span
+                          >
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="p-3">
+                      <p class="text-sm text-primary">60</p>
+                    </td>
+                    <td class="p-3">
+                      <button class="btn-outline-primary btn-sm">
+                        Preview
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="shadow-sm even:bg-gray-100">
+                    <td class="p-3 w-7">
+                      <div
+                        class="inline-flex items-center justify-center text-black rounded-md w-7 h-7"
+                      >
+                        6
+                      </div>
+                    </td>
+                    <td class="w-full p-3">
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img
+                            class="w-full h-full rounded-full"
+                            src="images/avatar-5.svg"
+                            alt="avatar"
+                          />
+                        </div>
+                        <div class="ml-3">
+                          <p
+                            class="text-sm font-medium whitespace-no-wrap text-primary"
+                          >
+                            James Morris
+                          </p>
+                          <span class="text-xs capitalize text-black-light"
+                            >school name</span
+                          >
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="p-3">
+                      <p class="text-sm text-primary">60</p>
+                    </td>
+                    <td class="p-3">
+                      <button class="btn-outline-primary btn-sm">
+                        Preview
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="shadow-sm even:bg-gray-100">
+                    <td class="p-3 w-7">
+                      <div
+                        class="inline-flex items-center justify-center text-black rounded-md w-7 h-7"
+                      >
+                        7
+                      </div>
+                    </td>
+                    <td class="w-full p-3">
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img
+                            class="w-full h-full rounded-full"
+                            src="images/avatar-5.svg"
+                            alt="avatar"
+                          />
+                        </div>
+                        <div class="ml-3">
+                          <p
+                            class="text-sm font-medium whitespace-no-wrap text-primary"
+                          >
+                            James Morris
+                          </p>
+                          <span class="text-xs capitalize text-black-light"
+                            >school name</span
+                          >
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="p-3">
+                      <p class="text-sm text-primary">60</p>
+                    </td>
+                    <td class="p-3">
+                      <button class="btn-outline-primary btn-sm">
+                        Preview
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="shadow-sm even:bg-gray-100">
+                    <td class="p-3 w-7">
+                      <div
+                        class="inline-flex items-center justify-center text-black rounded-md w-7 h-7"
+                      >
+                        8
+                      </div>
+                    </td>
+                    <td class="w-full p-3">
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img
+                            class="w-full h-full rounded-full"
+                            src="images/avatar-5.svg"
+                            alt="avatar"
+                          />
+                        </div>
+                        <div class="ml-3">
+                          <p
+                            class="text-sm font-medium whitespace-no-wrap text-primary"
+                          >
+                            James Morris
+                          </p>
+                          <span class="text-xs capitalize text-black-light"
+                            >school name</span
+                          >
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="p-3">
+                      <p class="text-sm text-primary">60</p>
+                    </td>
+                    <td class="p-3">
+                      <button class="btn-outline-primary btn-sm">
+                        Preview
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="shadow-sm even:bg-gray-100">
+                    <td class="p-3 w-7">
+                      <div
+                        class="inline-flex items-center justify-center text-black rounded-md w-7 h-7"
+                      >
+                        9
+                      </div>
+                    </td>
+                    <td class="w-full p-3">
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img
+                            class="w-full h-full rounded-full"
+                            src="images/avatar-5.svg"
+                            alt="avatar"
+                          />
+                        </div>
+                        <div class="ml-3">
+                          <p
+                            class="text-sm font-medium whitespace-no-wrap text-primary"
+                          >
+                            James Morris
+                          </p>
+                          <span class="text-xs capitalize text-black-light"
+                            >school name</span
+                          >
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="p-3">
+                      <p class="text-sm text-primary">60</p>
+                    </td>
+                    <td class="p-3">
+                      <button class="btn-outline-primary btn-sm">
+                        Preview
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="shadow-sm even:bg-gray-100">
+                    <td class="p-3 w-7">
+                      <div
+                        class="inline-flex items-center justify-center text-black rounded-md w-7 h-7"
+                      >
+                        10
+                      </div>
+                    </td>
+                    <td class="w-full p-3">
+                      <div class="flex items-center">
+                        <div class="flex-shrink-0 w-10 h-10">
+                          <img
+                            class="w-full h-full rounded-full"
+                            src="images/avatar-5.svg"
+                            alt="avatar"
+                          />
+                        </div>
+                        <div class="ml-3">
+                          <p
+                            class="text-sm font-medium whitespace-no-wrap text-primary"
+                          >
+                            James Morris
+                          </p>
+                          <span class="text-xs capitalize text-black-light"
+                            >school name</span
+                          >
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="p-3">
+                      <p class="text-sm text-primary">60</p>
+                    </td>
+                    <td class="p-3">
+                      <button class="btn-outline-primary btn-sm">
+                        Preview
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="flex justify-end mt-10 space-x-28">
+                <div class="flex space-x-3">
+                  <p class="text-sm text-primary">Rows per page:</p>
+                  <select class="text-sm text-primary focus:outline-none">
+                    <option value="0" selected>10</option>
+                    <option value="1">20</option>
+                    <option value="1">30</option>
+                    <option value="1">40</option>
+                  </select>
+                </div>
+
+                <div class="flex space-x-12">
+                  <p class="text-sm text-primary">1-10 of 30 items</p>
+
+                  <div class="space-x-4">
+                    <a href="" class="inline-block text-sm text-primary">
+                      <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a href="" class="inline-block text-sm text-primary">
+                      <i class="fas fa-chevron-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Start Preview Submissions Popup -->
+              <div
+                x-show="submissionsPopup"
+                class="fixed top-0 left-0 flex items-center justify-center w-full h-full"
+                style="background-color: rgba(0, 0, 0, 0.5)"
+                x-cloak
+              >
+                <div class="relative">
+                  <div class="absolute right-4 top-4">
+                    <button
+                      class="px-4 py-2 text-gray-dark"
+                      @click="submissionsPopup = false"
+                    >
+                      <i class="fas fa-times"></i>
+                    </button>
+                  </div>
+
+                  <div
+                    class="overflow-hidden bg-white rounded-lg shadow-xs w-popup"
+                  >
+                    <div class="flex" x-data="{ tab: 'information' }">
+                      <div class="flex-shrink-0 border-r w-52 bg-gray">
+                        <div
+                          class="h-full px-8 bg-gradient-to-r from-gray-lightest-1 to-gray-lightest-1 py-14"
+                        >
+                          <ul>
+                            <li
+                              :class="{ 'bg-primary': tab === 'information' }"
+                              class="mb-4 rounded-lg cursor-pointer"
+                              @click="tab = 'information'"
+                            >
+                              <div
+                                :class="{ 'bg-gradient-to-r from-gray-lightest to-gray-lightest': tab === 'information' }"
+                                class="px-2 py-1.5"
+                              >
+                                <span
+                                  :class="{ 'text-primary': tab === 'information' }"
+                                  class="text-sm font-medium text-gray-darker"
+                                >
+                                  1. Information
+                                </span>
+                              </div>
+                            </li>
+
+                            <li
+                              :class="{ 'bg-primary': tab === 'upload-files' }"
+                              class="mb-4 rounded-lg cursor-pointer"
+                              @click="tab = 'upload-files'"
+                            >
+                              <div
+                                :class="{ 'bg-gradient-to-r from-gray-lightest to-gray-lightest': tab === 'upload-files'}"
+                                class="px-2 py-1.5"
+                              >
+                                <span
+                                  :class="{ 'text-primary': tab === 'upload-files' }"
+                                  class="text-sm font-medium text-gray-darker"
+                                >
+                                  2. Uploads Files
+                                </span>
+                              </div>
+                            </li>
+
+                            <li
+                              :class="{ 'bg-primary': tab === 'preview' }"
+                              class="mb-4 rounded-lg cursor-pointer"
+                              @click="tab = 'preview'"
+                            >
+                              <div
+                                :class="{ 'bg-gradient-to-r from-gray-lightest to-gray-lightest': tab === 'preview'}"
+                                class="px-2 py-1.5"
+                              >
+                                <span
+                                  :class="{ 'text-primary': tab === 'preview' }"
+                                  class="text-sm font-medium text-gray-darker"
+                                >
+                                  3. Preview
+                                </span>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- Start form tab content wrapper -->
+                      <div class="w-full px-8 overflow-auto py-14 h-popup">
+                        <!-- Start information tab -->
+                        <div x-show="tab === 'information'">
+                          <h3 class="mb-5 font-medium">
+                            Submission information
+                          </h3>
+                          <!-- Start form wrapper -->
+                          <div>
+                            <div class="form-group">
+                              <label class="form-label">Categories</label>
+                              <input
+                                class="form-input"
+                                placeholder="Category 1"
+                                readonly
+                              />
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label">Submission Title</label>
+                              <input
+                                class="form-input"
+                                placeholder="First draft"
+                                readonly
+                              />
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label">Contestant Name</label>
+                              <input
+                                class="form-input"
+                                placeholder="Florencia"
+                                readonly
+                              />
+                            </div>
+                            <div class="form-group">
+                              <label class="form-label"
+                                >Contestant School</label
+                              >
+                              <input
+                                class="form-input"
+                                placeholder="St. Thomas"
+                                readonly
+                              />
+                            </div>
+                            <div class="form-group">
+                              <textarea
+                                rows="5"
+                                placeholder="This is a test."
+                                readonly
+                              ></textarea>
+                            </div>
+                          </div>
+                          <!-- End form wrapper -->
+                        </div>
+                        <!-- End information tab -->
+
+                        <!-- Start upload-files tab -->
+                        <div x-show="tab === 'upload-files'">
+                          <h3 class="mb-5 font-medium">Submitted files (4)</h3>
+                          <div>
+                            <div class="form-group">
+                              <label
+                                class="relative block w-full form-input"
+                                for="customFile"
+                                x-data="{ files: null }"
+                              >
+                                <input
+                                  type="file"
+                                  class="sr-only"
+                                  id="customFile"
+                                  x-on:change="files = Object.values($event.target.files)"
+                                />
+                                <i
+                                  class="absolute transform -translate-y-1/2 far fa-file-alt left-2 top-1/2"
+                                ></i>
+                                <span
+                                  class="block pl-5 -mt-1 font-medium"
+                                  x-text="files ? files.map(file => file.name).join(', ') : 'filename.pdf    150KB'"
+                                ></span>
+                              </label>
+                            </div>
+                            
+                            <div class="form-group">
+                              <label
+                                class="relative block w-full form-input"
+                                for="customFile"
+                                x-data="{ files: null }"
+                              >
+                                <input
+                                  type="file"
+                                  class="sr-only"
+                                  id="customFile"
+                                  x-on:change="files = Object.values($event.target.files)"
+                                />
+                                <i
+                                  class="absolute transform -translate-y-1/2 far fa-file-alt left-2 top-1/2"
+                                ></i>
+                                <span
+                                  class="block pl-5 -mt-1 font-medium"
+                                  x-text="files ? files.map(file => file.name).join(', ') : 'filename.pdf    150KB'"
+                                ></span>
+                              </label>
+                            </div>
+
+                            <div class="form-group">
+                              <label
+                                class="relative block w-full form-input"
+                                for="customFile"
+                                x-data="{ files: null }"
+                              >
+                                <input
+                                  type="file"
+                                  class="sr-only"
+                                  id="customFile"
+                                  x-on:change="files = Object.values($event.target.files)"
+                                />
+                                <i
+                                  class="absolute transform -translate-y-1/2 far fa-file-alt left-2 top-1/2"
+                                ></i>
+                                <span
+                                  class="block pl-5 -mt-1 font-medium"
+                                  x-text="files ? files.map(file => file.name).join(', ') : 'filename.pdf    150KB'"
+                                ></span>
+                              </label>
+                            </div>
+
+                            <div class="form-group">
+                              <label
+                                class="relative block w-full form-input"
+                                for="customFile"
+                                x-data="{ files: null }"
+                              >
+                                <input
+                                  type="file"
+                                  class="sr-only"
+                                  id="customFile"
+                                  x-on:change="files = Object.values($event.target.files)"
+                                />
+                                <i
+                                  class="absolute transform -translate-y-1/2 far fa-file-alt left-2 top-1/2"
+                                ></i>
+                                <span
+                                  class="block pl-5 -mt-1 font-medium"
+                                  x-text="files ? files.map(file => file.name).join(', ') : 'filename.pdf    150KB'"
+                                ></span>
+                              </label>
+                            </div>
+                            <button class="btn btn-primary">Download files</button>
+                          </div>
+                        </div>
+                        <!-- End upload-files tab -->
+
+                        <!-- Start preview tab -->
+                        <div x-show="tab === 'preview'">
+                          <h3 class="mb-5 font-medium">Files Preview</h3>
+
+                          <div class="splide" id="video-slider">
+                            <div class="mb-4 splide__track">
+                              <ul class="splide__list">
+                                <li
+                                  class="splide__slide"
+                                  data-splide-html-video="https://www.youtube.com/watch?v=qevjPl7d2sk"
+                                >
+                                  <img src="images/Media.svg" />
+                                </li>
+                                <li
+                                  class="splide__slide"
+                                  data-splide-youtube="https://www.youtube.com/watch?v=cdz__ojQOuU"
+                                >
+                                  <img src="images/video-thumb-2.svg" />
+                                </li>
+                                <li
+                                  class="splide__slide"
+                                  data-splide-youtube="https://www.youtube.com/watch?v=qevjPl7d2sk"
+                                >
+                                  <img src="images/video-thumb-1.svg" />
+                                </li>
+                                <li
+                                  class="splide__slide"
+                                  data-splide-html-video="https://www.youtube.com/watch?v=qevjPl7d2sk"
+                                >
+                                  <img src="images/Media.svg" />
+                                </li>
+                                <li
+                                  class="splide__slide"
+                                  data-splide-youtube="https://www.youtube.com/watch?v=qevjPl7d2sk"
+                                >
+                                  <img src="images/video-thumb-1.svg" />
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div id="video-thumbnail-slider" class="splide">
+                            <div class="splide__track">
+                              <ul class="splide__list">
+                                <li class="splide__slide">
+                                  <div>
+                                    <img src="images/video-thumb-1.svg" />
+                                  </div>
+                                  <p class="thumb-title">Filename.mp4</p>
+                                  <p></p>
+                                </li>
+
+                                <li class="splide__slide">
+                                  <img src="images/video-thumb-2.svg" />
+                                  <p class="thumb-title">Filename.mp4</p>
+                                  <p></p>
+                                </li>
+
+                                <li class="splide__slide">
+                                  <img src="images/video-thumb-1.svg" />
+                                  <p class="thumb-title">Filename.mp4</p>
+                                  <p></p>
+                                </li>
+
+                                <li class="splide__slide">
+                                  <img src="images/video-thumb-2.svg" />
+                                  <p class="thumb-title">Filename.mp4</p>
+                                  <p></p>
+                                </li>
+
+                                <li class="splide__slide">
+                                  <img src="images/video-thumb-1.svg" />
+                                  <p class="thumb-title">Filename.mp4</p>
+                                  <p></p>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- End preview tab -->
+                      </div>
+                      <!-- End form tab content wrapper -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Preview Submissions Popup -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- required for slider -->
+    <script src="js/splide.min.js"></script>
+    <!-- required for slider -->
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>
